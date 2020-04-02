@@ -1,0 +1,107 @@
+#main {
+    width: 480px;
+    /* height: 767px; */
+    background-color: gray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid green;
+}
+
+            @media only screen and (min-width: 768px) {
+                #a{
+                    background-color: red;
+                    width: 960px;
+                    height: 100px;
+                    line-height: 100px;
+                
+
+                }
+               #main{
+                    width: 960px;
+                }
+                #b{
+                    width: 200px;
+                    height: 600px;
+                    border-right: 1px solid green;
+                    border-top: 1px solid green;
+                    /* display: inline-block; */
+                    line-height: 600px;
+                }
+                #cd{
+                    width: 380px;
+                    height:200px;
+                    border-left:  1px solid green;
+                    line-height: 200px;
+                    float: left ;
+                    
+                    /* display: inline-block; */
+                    /* float: right; 
+                     */
+                    
+                    
+                    }
+                    #desk{
+                      float: right;
+                      /* margin-bottom: 50px; */
+                      /* display: block; */
+                      margin-top: -600px;
+                      
+                    }
+                    .e{
+                        width: 190px;
+                    height:250px;
+                        float: left;
+                        line-height: 250px;
+
+                        border-left:  1px solid green;
+                        border-top:  1px solid green;
+                        background-color: lawngreen;
+        
+                    }
+                    .f{
+                        width: 190px;
+                    height:250px;
+                        float: right;
+                        line-height: 250px;
+                        border-left:  1px solid green;
+                        border-top:  1px solid green;
+                        background-color: lightcoral;
+                        
+
+                    }
+                    .ef{
+                        /*             
+                                    border-bottom:  10px solid green;
+                                    line-height: 250px; */
+                                    
+                                    /* border: 10px solid green; */
+                                    /* border-top: 10px solid green ; */
+                                    /* float: right; */
+                                    /* margin-top: -400px; */
+                                    display: inline-block;
+                                    background-color: gray;
+                        
+                                    
+                        
+                                    
+                                    
+                                    }
+                                    #desk2{
+                                         float: right; 
+                                    margin-top: -400px;
+                                       
+                                    }
+                                    #i{
+                                        background-color: grey;
+                                        height: 150px;
+                                        line-height: 150px;
+                                        border-top: 1px solid green ;
+                                        border-top: 1px solid green ;
+                                        width: 760px;
+                                        float: right;
+                                        margin-top: -200px;
+                                    }
+
+            }
+
